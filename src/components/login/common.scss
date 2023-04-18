@@ -1,0 +1,55 @@
+@import "@/style/themeMixin";
+.demo-ruleForm {
+  .el-form-item {
+    @include theme(border-color, "color-input-border");
+    .el-form-item__content {
+      .el-input {
+        color: red;
+        & ::v-deep .el-input__wrapper {
+          transition: all 0.05s;
+          color: red;
+          @include theme("background-color");
+
+          .el-input__inner {
+            @include theme(color, "font-basis-color");
+          }
+        }
+        & ::v-deep .el-input__wrapper ::placeholder {
+          @include theme(color, "input-placeholder-color");
+        }
+      }
+      .el-checkbox-group {
+        .el-checkbox {
+          .el-checkbox__input {
+            .el-checkbox__original {
+              background-color: black !important;
+            }
+            .el-checkbox__inner {
+              background-color: black !important;
+            }
+          }
+          & ::v-deep .el-checkbox__label {
+            @include theme(color, "font-basis-color");
+          }
+        }
+      }
+      .el-button:not(.login) {
+        transition: all 0.2s;
+        @include theme(color, "font-basis-color");
+        @include theme(border-color, "border-color");
+        @include theme("background-color");
+      }
+      .el-button:not(.login):hover {
+        @include theme(color, " button-hover-color");
+        @include theme(border-color, "button-hover-border-color");
+        @include theme(background-color, "button-hover-background-color");
+      }
+      .el-divider {
+      
+        & ::v-deep .el-divider__text {
+          @include theme("background-color");
+        }
+      }
+    }
+  }
+}

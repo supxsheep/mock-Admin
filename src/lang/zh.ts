@@ -1,0 +1,29 @@
+const zhLocal = {
+  Login:{
+    username:"账号",
+    password:"密码",
+    password2:"确认密码",
+    verifyCode:"验证码",
+    phone:"手机号码",
+    smsVertifyCode:"短信验证码",
+    getVertifyCode:"获取验证码",
+    QRMsg:"扫码后点击\"确认\"，即可完成登录",
+    hasReadRules:"我已仔细阅读并接受",
+    Rules:"《隐私政策》",
+    rememberPwd:"记住密码",
+    forgetPwd:"忘记密码",
+    login:"登录",
+    back:"返回",
+    phoneLogin:"手机登录",
+    qrLogin:"二维码登录",
+    register:"注册",
+    thirdLogin:"第三方登录",
+    comfirmUname:"请输入用户名",
+    comfirmPwd:"请输入密码",
+    comfirmPwd2:"请输入验证密码",
+    pwdNotEq:"两次密码输入不一致",
+    comfirmCode:"请输入验证码",
+    comfirmPhone:"请输入手机号"
+  }
+}
+export default zhLocal

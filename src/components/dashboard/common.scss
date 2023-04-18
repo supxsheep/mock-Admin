@@ -1,0 +1,9 @@
+@import "@/style/themeMixin";
+.box-card{
+  @include theme("color", "theme-font-color");
+  @include theme("background-color");
+  @include theme("border-color", "card-border-color");
+  & ::v-deep .el-card__header {
+    @include theme("border-color", "card-border-color");
+  }
+}

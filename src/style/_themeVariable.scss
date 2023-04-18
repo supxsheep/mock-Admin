@@ -1,0 +1,56 @@
+$themes: ("light": (
+    background-color: #ffffff,
+    font-basis-color: #1e1e1e,
+    input-placeholder-color:#b0abc3,
+    border-color:#dcdfe6,
+    button-hover-color:#409eff,
+    button-hover-border-color:#c5e1ff,
+    button-hover-background-color:#ebf5ff,
+    //系统中心
+    theme-font-color:#303133, //字体色
+    logo-background-color:#002140,//logo 背景色
+    collapse-color:#307cca,//拉伸框按钮颜色
+    collapse-background-color:#001529,//拉伸框背景色
+    sidebar-color:#ffffff,//侧边栏颜色
+    sidebar-background-color:#001529,//侧边栏背景色
+
+    basic-border-color:#ececec,//基础边框色
+    card-border-color:#e4e7ed,  //首页 卡片边框色
+    card-th-background-color:#f5f7fa, //首页 卡片头背景色
+    basic-background-color:#ffffff,//基础背景色
+    embedded-background-color:#f0f2f5,//首页 布局背景色
+    operation-hover-color:#f6f6f6,//首页 顶部浮入背景色
+    drawer-background-color:#ffffff,//首页 抽屉背景色
+    nowdays-background-color:#f0f9eb,//首页 天气今天背景色
+    week-item-background-color:#fdf6ec,//首页 周单项背景色
+    week-item-first-background-color:#f0f9eb,//首页 周第一个背景色
+    
+),
+  "dark": (
+    background-color: #1e1e1e,
+    font-basis-color: #ffffff,
+    input-placeholder-color:#777779,
+    border-color:#4c4d4f,
+    button-hover-color:#3076bf,
+    button-hover-border-color:#132f4c,
+    button-hover-background-color:#060f19,
+    //系统中心
+    theme-font-color:#b7bbc2, 
+    logo-background-color:#101010,
+    collapse-color:#307cca,
+    collapse-background-color:#101010,
+    sidebar-color:#000000,
+    sidebar-background-color:#101010,
+
+    basic-border-color:#1f1f1f,
+    card-border-color:#414243,
+    card-th-background-color:#262727,
+    basic-background-color:#101010,
+    embedded-background-color:#020409,
+    operation-hover-color:#242424,
+    drawer-background-color:#141414,
+    nowdays-background-color:rgb(53, 63, 55),
+    week-item-background-color:#262727,
+    week-item-first-background-color:#295a5a,
+)
+);
