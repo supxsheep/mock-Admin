@@ -24,7 +24,8 @@ import NavView from "@/components/main/NavView";
   width: 100vw;
   height: 100vh;
   display: flex;
-
+  overflow-x: hidden;
+  
   .aside {
     height: 100vh;
   }
