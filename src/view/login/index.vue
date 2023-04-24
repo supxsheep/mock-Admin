@@ -178,6 +178,7 @@ const backLogin = (value: string): void => {
 .login-layout {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 
   @include theme("background-color");
   position: relative;
